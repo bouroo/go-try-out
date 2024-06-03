@@ -1,0 +1,22 @@
+[app]
+name = "00_basic_project_structure"
+env = "local"
+debug = true
+timeout = "30s"
+[app.http]
+host = "localhost"
+port = 8080
+[app.https]
+host = "localhost"
+port = 8443
+[app.grpc]
+host = "localhost"
+port = 3478
+
+[db]
+driver = "sqlite"
+host = ""
+port = 0
+user = ""
+password = ""
+database = "sqlite.db"
